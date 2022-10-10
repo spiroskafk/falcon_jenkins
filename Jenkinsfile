@@ -50,7 +50,7 @@ pipeline {
             }
             steps {
                 script {
-                    docker.withRegistry('', 'DockerHub') {
+                    docker.withRegistry('', 'Dockerhub-access') {
                         customImage.push()
                     }
                 }

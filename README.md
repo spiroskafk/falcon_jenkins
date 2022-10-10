@@ -1,2 +1,6 @@
 # falcon_jenkins
-Falcon python app using jenkins cicd pipeline
+
+- Falcon app (https://falcon.readthedocs.io/en/stable/user/tutorial.html)
+- Built with Jenkins CICD pipeline
+- Dockerized 
+- Pushed to dockerhub registry
